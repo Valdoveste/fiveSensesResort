@@ -38,8 +38,8 @@
 /*----------------------------------------*/
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
-.tp-counter__content p {
-  letter-spacing: unset !important;
+.tp-hero__area {
+  height: 100vh;
 }
 
 .tp-choose__area {
@@ -50,14 +50,24 @@
   min-height: 500px;
 }
 
- .tp-counter__area {
+.tp-footer__area {
+  background-color: white !important;
+}
+
+.tp-feature__item {
+  width: 100%;
+}
+
+/* tp_conuter */
+
+.tp-counter__area {
   position: absolute !important;
   bottom: -20%;
 }
 
-.tp-feature__item{
-  width: 100%;
-} 
+.tp-counter__item {
+  min-height: 220px;
+}
 
 .tp-counter__item:hover {
   cursor: default;
@@ -65,8 +75,9 @@
   border-color: #cacaca !important;
 }
 
-.tp-hero__area {
-  height: 100vh;
+.tp-counter__content p {
+  color: gray !important;
+  letter-spacing: unset !important;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
