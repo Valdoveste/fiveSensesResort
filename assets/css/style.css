@@ -50,11 +50,11 @@
   min-height: 500px;
 }
 
-/* .tp-counter__area {
+.tp-counter__area {
   position: absolute !important;
   bottom: -20%;
 }
-*/
+
 
 .tp-feature__item{
   width: 100%;
