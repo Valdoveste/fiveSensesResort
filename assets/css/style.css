@@ -38,8 +38,21 @@
 /*----------------------------------------*/
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
+
+.carousel-item .container{
+  position: absolute;
+  bottom: 5%;
+  transform: translate(50%,50%);
+}
+.scroll-dots{
+  bottom: 18% !important;
+}
+.carousel-indicators li{
+  cursor: pointer;
+}
+
 .tp-hero__area {
-  height: 100vh;
+  padding-top: 0 !important;
 }
 
 .tp-choose__area {
@@ -70,7 +83,6 @@
   position: absolute !important;
 }
 
-/* #d1b372 */
 .tp-counter__item {
   min-height: 220px;
 }
