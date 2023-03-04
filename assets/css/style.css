@@ -39,16 +39,21 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 
-.carousel-item .container{
-  position: absolute;
-  bottom: 5%;
-  transform: translate(50%,50%);
+.tp-header__menu-space {
+  padding-top: unset !important;
 }
-.scroll-dots{
+
+.tp-btn:hover {
+  color: white;
+}
+
+.accordion-body,
+.accordion-buttons {
+  color: gray;
+}
+
+.scroll-dots {
   bottom: 18% !important;
-}
-.carousel-indicators li{
-  cursor: pointer;
 }
 
 .tp-hero__area {
@@ -67,13 +72,45 @@
   background-color: white !important;
 }
 
+/* carousel */
+.carousel-indicators li {
+  cursor: pointer;
+}
+
+.carousel-item .container {
+  position: absolute;
+  bottom: 5%;
+  transform: translate(50%, 50%);
+}
+
+/* tp-social */
+
+.tp-hero__social .social-icon {
+  top: -0px !important;
+}
+
+.social-icon {
+  color: #84764c;
+}
+
+.tp-hero__social a:hover .social-icon {
+  left: -79px !important;
+}
+
+.tp-hero__social a:hover .social-icon.instagram {
+  left: -85px !important;
+}
+
+/* tp-feature */
+
 .tp-feature__item {
   width: 100%;
 }
 
-.tp-feature__title-sm, .tp-section-title{
+.tp-feature__title-sm,
+.tp-section-title {
   color: var(--tp-theme-1) !important;
-  font-family: var(--tp-ff-heading) !important; 
+  font-family: var(--tp-ff-heading) !important;
 }
 
 /* tp_conuter */
