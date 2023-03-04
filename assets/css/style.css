@@ -54,10 +54,11 @@
   position: absolute !important;
   bottom: -20%;
 }
+*/
 
 .tp-feature__item{
   width: 100%;
-} */
+} 
 
 .tp-counter__item:hover {
   cursor: default;
