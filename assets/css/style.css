@@ -39,6 +39,21 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 
+[class*="title"]{
+  color: var(--tp-theme-1) !important;
+  font-family: var(--tp-ff-heading) !important;
+}
+
+
+a.tp-feature__icon{
+  display: block;
+  margin-bottom: 30px;
+}
+
+a.tp-feature__icon:hover{
+  cursor: pointer;
+}
+
 .tp-header__menu-space {
   padding-top: unset !important;
 }
@@ -105,12 +120,6 @@
 
 .tp-feature__item {
   width: 100%;
-}
-
-.tp-feature__title-sm,
-.tp-section-title {
-  color: var(--tp-theme-1) !important;
-  font-family: var(--tp-ff-heading) !important;
 }
 
 /* tp_conuter */
