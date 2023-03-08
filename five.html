@@ -24,6 +24,8 @@
    <link rel="stylesheet" href="assets/css/magnific-popup.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -47,12 +49,12 @@
    <header>
       <!-- tp-header-area-start -->
       <div id="header-sticky"
-         class="tp-header__area tp-header__space tp-header__transparent tp-header__menu-space z-index-5">
+         class="tp-header__area tp-header__space tp-header__transparent tp-header__menu-space z-index-5 ">
          <div class="container-fluid">
             <div class="row align-items-center">
                <div class="col-xl-2 col-lg-2 col-md-6 col-8">
                   <div class="tp-header__logo">
-                     <a href="index.html">
+                     <a href="home.html">
                         <img src="assets/img/logo/logo five branca.png" alt="">
                      </a>
                   </div>
@@ -61,7 +63,7 @@
                   <div class="tp-header__main-menu">
                      <nav id="mobile-menu">
                         <ul>
-                           <li><a href="index.html">
+                           <li><a href="home.html">
                                  <Fieldset>Five Senses</Fieldset>
                               </a>
                               <ul class="submenu">
@@ -87,7 +89,7 @@
                <div class="col-xl-3 col-lg-3 col-md-6 col-4">
                   <div class="tp-header__right">
                      <a class="tp-btn d-none d-md-block" href="#"><span>Entre em contato</span></a>
-
+                     <a class="tp-header__bars tp-menu-bar" href="javascript:void(0)"><i class="far fa-bars"></i></a>
                   </div>
                </div>
             </div>
@@ -103,8 +105,8 @@
             <button class="close-btn"><i class="fal fa-times"></i></button>
          </div>
          <div class="tpoffcanvas__logo">
-            <a href="index.html">
-               <img src="assets/img/logo/logo five dourada.png" alt="">
+            <a href="home.html">
+               <img src="assets/img/logo/logo.png" alt="">
             </a>
          </div>
          <div class="tpoffcanvas__text">
@@ -146,8 +148,10 @@
          <div class="tpoffcanvas__social">
             <div class="social-icon">
                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-               <a href="https://www.instagram.com/fivesensesresortpalmas/" target="_blank"><i class="fab fa-instagram"></i></a>
-               <a href="https://www.facebook.com/fivesensesresortspalmas/?locale=pt_BR" target="_blank"><i class="fab fa-facebook-square"></i></a>
+               <a href="https://www.instagram.com/fivesensesresortpalmas/" target="_blank"><i
+                     class="fab fa-instagram"></i></a>
+               <a href="https://www.facebook.com/fivesensesresortspalmas/?locale=pt_BR" target="_blank"><i
+                     class="fab fa-facebook-square"></i></a>
                <a href="https://www.youtube.com/@FiveSensesResorts"><i class="fab fa-youtube"></i></a>
             </div>
          </div>
@@ -158,234 +162,63 @@
 
    <main>
       <!-- tp-slider-area-start -->
-      
-      <div class="tp-hero__area tp-hero__bg p-relative" data-background="assets/img/hero/22.jpg">
-         <div class="scroll-down smooth d-none d-xl-block">
-            <a href="#feature-area">
-               <div class="scroll-dots d-flex justify-content-center flex-column align-items-center">
-                  <span class="rotate-text">desça o mouse</span>
-                  <span class="circle-1"></span>
-                  <span class="circle-2"></span>
-                  <span class="circle-3"></span>
-                  <button class="scroll-mouse"><i class="fal fa-mouse"></i></button>
-               </div>
-            </a>
-         </div>
-         <div class="tp-hero__social d-none d-xl-flex">
-            <!-- <a class="p-relative" href="#"><i class="fab fa-twitter"></i>
-               <div class="social-icon">
-                  <span><i class="fab fa-twitter"></i> twitter</span>
-               </div>
-            </a> -->
-            <a class="p-relative" href="https://www.facebook.com/fivesensesresortspalmas/?locale=pt_BR" target="_blank"><i class="fab fa-facebook-f"></i>
-               <div class="social-icon facebook">
-                  <span><i class="fab fa-facebook-f"></i> facebook</span>
-               </div>
-            </a>
-            <a class="p-relative" href="https://www.instagram.com/fivesensesresortpalmas/" target="_blank"><i class="fab fa-instagram"></i>
-               <div class="social-icon instagram">
-                  <span><i class="fab fa-instagram"></i> instagram</span>
-               </div>
-            </a>
-            <a class="p-relative" href="https://www.youtube.com/@FiveSensesResorts"><i class="fab fa-youtube"></i>
-               <div class="social-icon youtube">
-                  <span><i class="fab fa-youtube"></i> youtube</span>
-               </div>
-            </a>
-         </div>
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col-xl-8 col-12">
-                  <div class="tp-hero__wrapper">
-                     <div class="tp-hero__content pb-70 text-center">
-                        <h2 class="tp-hero__title wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".5s">
-                            </h2>
-                     </div>
-                     <div class="tp-hero__thumb text-xl-block text-lg-center  p-relative">
-                        <img class="wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".7s" src="" alt="">
-                        <div class="tp-hero__thumb-icon">
 
-
-                        </div>
-                     </div>
-                  </div>
+      <div class="tp-hero__area tp-hero__bg p-relative pt-0 pb-0">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item home-carousel-item active">
+                  <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="First slide">
+               </div>
+               <div class="carousel-item home-carousel-item">
+                  <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="Second slide">
+               </div>
+               <div class="carousel-item home-carousel-item">
+                  <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="Third slide">
+               </div>
+               <div class="carousel-item home-carousel-item">
+                  <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="Third slide">
                </div>
             </div>
          </div>
       </div>
       <!-- tp-slider-area-end -->
 
-   <main>
-
-
-      <!-- tp-project-area-start -->
-      <div class="tp-project__area tp-project__border pt-120 pb-90">
-         <div class="container">
+      <!-- tp-feature-area-start -->
+      <div class="tp-app__area p-relative">
+         <div class="container m-0 mw-100">
             <div class="row">
-               <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
-                  <div id="project" class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-1.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="evolucao-da-obra.html">Product Enginnering</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".7s">
-                  <div class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-2.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="evolucao-da-obra.html">Web Design Company</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".9s">
-                  <div class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-3.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="evolucao-da-obra.html">Business Setup & Company</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay="1s">
-                  <div class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-4.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="evolucao-da-obra.html">Mainland Company Formation</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay="1.2s">
-                  <div class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-5.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="#">Digital Solution company</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay="1.4s">
-                  <div class="tp-project__item mb-30">
-                     <div class="tp-project__thumb fix">
-                        <a href="evolucao-da-obra.html"><img src="assets/img/project/project-6.jpg" alt=""></a>
-                     </div>
-                     <div class="tp-project__content">
-                        <h3 class="tp-project__title"><a href="evolucao-da-obra.html">Data Analysis</a></h3>
-                        <p>At Quitox we specialize in designing, building, shipping...</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- tp-project-area-end -->
 
-      <!-- tp-support-area-start -->
-      <div class="tp-support__area pt-120 pb-120 grey-bg p-relative">
-         <div class="tp-support__bg">
-            <img src="assets/img/faq/faq-bg-shape.png" alt="">
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="tp-support__title-box text-center mb-70">
-                     <h3 class="tp-section-title">Need A Support? 🎧</h3>
+               <div class="col-lg-6 col-xl-6 wow tpfadeLeft pt-100 pb-100 t-5" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <div class="container-fluid ">
+                     <div class="row ">
+                        <div class="col-md-12 p-0">
+                           <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-4 p-0">
+                           <img class="d-block w-100 h-100" src="assets/img/hero/22.jpg" alt="">
+                        </div>
+                        <div class="col-md-8 p-0">
+                           <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="">
+                        </div>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="row">
-               <div class="col-12">
-                  <div class="tp-support__faq">
-                     <div class="tp-custom-accordio-2">
-                        <div class="accordion" id="accordionExample-2">
-                           <div class="accordion-items">
-                              <h2 class="accordion-header" id="heading-1">
-                                 <button class="accordion-buttons " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                                    How Do I Change My Email or Password?
-                                 </button>
-                              </h2>
-                              <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
-                                 data-bs-parent="#accordionExample-2">
-                                 <div class="accordion-body">
-                                    Through the collaboration with customers in discussing needs and demand, we're able
-                                    to attain mutual understanding, gain customer trust <br> to offer appropriate advice
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-items">
-                              <h2 class="accordion-header" id="heading-2">
-                                 <button class="accordion-buttons collapsed  " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
-                                    Can I Lock My Note App?
-                                 </button>
-                              </h2>
-                              <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
-                                 data-bs-parent="#accordionExample-2">
-                                 <div class="accordion-body">
-                                    Through the collaboration with customers in discussing needs and demand, we're able
-                                    to attain mutual understanding, gain customer trust <br> to offer appropriate advice
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-items">
-                              <h2 class="accordion-header" id="heading-3">
-                                 <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
-                                    How About Data Security & NDA Agreement
-                                 </button>
-                              </h2>
-                              <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="heading-3"
-                                 data-bs-parent="#accordionExample-2">
-                                 <div class="accordion-body">
-                                    Through the collaboration with customers in discussing needs and demand, we're able
-                                    to attain mutual understanding, gain customer trust <br> to offer appropriate advice
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-items">
-                              <h2 class="accordion-header" id="heading-4">
-                                 <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
-                                    Can My Premium License Be Used For All Devices?
-                                 </button>
-                              </h2>
-                              <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="heading-4"
-                                 data-bs-parent="#accordionExample-2">
-                                 <div class="accordion-body">
-                                    Through the collaboration with customers in discussing needs and demand, we're able
-                                    to attain mutual understanding, gain customer trust <br> to offer appropriate advice
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-items">
-                              <h2 class="accordion-header" id="heading-5">
-                                 <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
-                                    What makes LessAccounting better than the rest?
-                                 </button>
-                              </h2>
-                              <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="heading-5"
-                                 data-bs-parent="#accordionExample-2">
-                                 <div class="accordion-body">
-                                    Through the collaboration with customers in discussing needs and demand, we're able
-                                    to attain mutual understanding, gain customer trust <br> to offer appropriate advice
-                                 </div>
-                              </div>
-                           </div>
+               <div class="col-lg-6 col-xl-6 wow tpfadeRight theme-bg pt-100 pb-100" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <div class="container">
+                     <div class="tp-app__wrapper-box">
+                        <div class="tp-app__content-box text-center">
+                           <h3 class="tp-section-title text-white mb-30">title sample</h3>
+                           <p>text sample</p>
                         </div>
                      </div>
                   </div>
@@ -393,8 +226,62 @@
             </div>
          </div>
       </div>
-      <!-- tp-support-area-end -->
+      <!-- tp-feature-area-end -->
 
+      <!-- tp-appliction-area-start -->
+      <div class="tp-app__area h-100">
+         <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="">
+      </div>
+      <!-- tp-appliction-area-end -->
+
+
+      <!-- tp-faq-area-end -->
+      <div class="tp-app__area p-relative">
+         <div class="container m-0 mw-100">
+            <div class="row">
+               <div class="col-lg-6 col-xl-6 wow tpfadeRight theme-bg pt-100 pb-100" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <div class="container">
+                     <div class="tp-app__wrapper-box">
+                        <div class="tp-app__content-box text-center">
+                           <h3 class="tp-section-title text-white mb-30">title sample</h3>
+                           <p>text sample</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 col-xl-6 wow tpfadeLeft pt-100 pb-100 t-5" data-wow-duration=".7s"
+                  data-wow-delay=".5s">
+                  <div class="container-fluid ">
+                     <img class="d-block w-100 h-100" src="assets/img/hero/22.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- tp-faq-area-end -->
+
+      <!-- tp-choose-area-start -->
+      <div class="tp-choose__area pt-120">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="tp-choose__title-box text-center">
+                     <h3 class="tp-section-title text-blue mb-20 wow tpfadeUp" data-wow-duration=".7s"
+                        data-wow-delay=".3s">Acompanhe a evolução da obra</h3>
+                     <h5 class="tp-choose__subtitle text-blue wow tpfadeUp" data-wow-duration=".7s"
+                        data-wow-delay=".5s">fique por dentro em nossas redes sociais</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- tp-choose-area-end -->
+
+      <div class="tp-app__area h-100">
+         <img class="d-block w-100" src="assets/img/hero/22.jpg" alt="">
+      </div>
    </main>
 
    <footer>
@@ -403,57 +290,46 @@
          <div class="container">
             <div class="row">
                <div class="col-xl-12">
-                  <div class="tp-footer__content text-center">
-                     <h3 class="tp-section-title text-white wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">Ready To Download 📥</h3>
-                     <p class="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Discover your new favorite spaces, from Sao Paulo to Seoul. Download from App Store or Google Play.</p>
-                  </div>
-                  <div class="tp-footer__thumb d-flex justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+
+                  <div class="tp-footer__thumb d-flex justify-content-center wow tpfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".7s">
                      <div class="tp-footer__thumb-sm">
-                        <a href="#"><img src="assets/img/app/app-2.png" alt=""></a>
-                     </div>
-                     <div class="tp-footer__thumb-sm">
-                        <a href="#"><img src="assets/img/app/app-3.png" alt=""></a>
+
+                        <div class="tp-footer__thumb-sm">
+
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-         <div class="tp-footer-bottom__area mt-80 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-            <div class="container">
-               <div class="tp-footer-bottom__border-top pt-40">
-                  <div class="row align-items-center">
-                     <div class="col-xl-2 col-lg-2 col-md-6 col-12 order-2 order-lg-1 text-center text-md-start">
-                        <div class="tp-footer-bottom__logo">
-                           <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+            <div class="tp-footer-bottom__area mt-80 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+               <div class="container">
+                  <div class="tp-footer-bottom__border-top pt-40">
+                     <div class="row">
+                        <div class="col-xl-5 col-lg-2 col-md-6 col-12 order-2 order-lg-1 text-center text-md-start">
+                           <div class="tp-footer-bottom__logo">
+                              <a href="home.html"><img src="assets/img/logo/logos01-09.png" alt=""></a>
+                           </div>
                         </div>
-                     </div>
-                     <div class="col-xl-7 col-lg-7 col-md-12 col-12 order-1 order-lg-2 d-none d-sm-block">
-                        <div class="tp-footer-bottom__menu">
-                           <ul>
-                              <li><a href="#">Features</a></li>
-                              <li><a href="#">Riviews</a></li>
-                              <li><a href="price.html">Pricing</a></li>
-                              <li><a href="faq.html">FAQ</a></li>
-                              <li><a href="blog-details.html">Blog</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-xl-3 col-lg-3 col-md-6 col-12 order-2 order-lg-3 text-center text-md-end">
-                        <div class="tp-footer-bottom__social">
-                           <ul>
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                           </ul>
+                        <div class="col-xl-7 col-lg-3 col-md-6 col-12 order-1 text-end">
+                           <div class="tp-footer-bottom__social">
+                              <ul>
+                                 <li><a href="https://www.facebook.com/fivesensesresortspalmas/?locale=pt_BR"
+                                       target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                 <li><a href="https://www.youtube.com/@FiveSensesResorts" target="_blank"><i
+                                          class="fab fa-youtube"></i></a></li>
+                                 <li><a href="https://www.instagram.com/fivesensesresortpalmas/" target="_blank"><i
+                                          class="fab fa-instagram"></i></a></li>
+
+                              </ul>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-      <!-- tp-footer-area-end -->
+         <!-- tp-footer-area-end -->
    </footer>
 
    <!-- JS here -->
@@ -471,9 +347,15 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/main.js"></script>
-
-
-
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
