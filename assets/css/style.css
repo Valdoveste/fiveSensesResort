@@ -39,6 +39,15 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 
+.t-5 {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.home-carousel-item img {
+  height: 100vh !important;
+}
+
 .modulos-info ul li:not(ul li:first-child) {
   margin-left: 16px;
   list-style: disc !important;
@@ -176,6 +185,39 @@ a.tp-feature__icon:hover {
 .tp-counter__content p {
   color: gray !important;
   letter-spacing: unset !important;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+  .tp-counter__area {
+    bottom: unset !important;
+    position: unset !important;
+  }
+
+  .tp-counter__area .row [class*="col"] {
+    width: unset;
+    padding: 0 !important;
+  }
+
+  .tp-choose__thumb-box {
+    padding-bottom: 1rem;
+  }
+
+  .tp-faq__thumb {
+    width: 100%;
+  }
+
+  .tp-counter__area .row {
+    width: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tp-counter__item {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
