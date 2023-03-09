@@ -1,37 +1,49 @@
-/************ TABLE OF CONTENTS ***************
-
-    01. THEME DEFAULT CSS
-	02. MEANMENU CSS START
-	03. header CSS START
-	04. hero CSS START
-	05. about CSS START
-	06. feature CSS START
-	07. service CSS START
-	08. app CSS START
-	09. faq CSS START
-	10. choose CSS START
-	11. counter CSS START
-	12. brand CSS START
-	13. cta CSS START
-	14. testimonial CSS START
-	15. support CSS START
-	16. platform CSS START
-	17. price CSS START
-	18. project CSS START
-	19. team CSS START
-	20. blog CSS START
-	21. contact CSS START
-	22. 404 CSS START
-	23. footer CSS START
-
-**********************************************/
-/*----------------------------------------*/
-/*  01. THEME DEFAULT CSS START
-/*----------------------------------------*/
+.carousel-indicators {
+  z-index: 8 !important;
+}
 
 .t-5 {
   padding-left: 60px !important;
   padding-right: 60px !important;
+}
+
+.t-6 {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+.tp-app__wrapper-box {
+  display: flex;
+  justify-content: center;
+}
+
+.tp-app__content-box {
+  width: fit-content;
+}
+
+.tp-app__content-box {
+  font-size: 30px;
+}
+
+.tp-app__content-box p {
+  font-size: 35px;
+}
+
+#carouselSlide-section-4 .carousel-item img,
+#carouselSlide-section-4 .carousel-item {
+  height: 100%;
+}
+
+.tp-app__content-text p {
+  font-size: 20px;
+}
+
+.tp-app__list li {
+  list-style-type: disc;
+}
+
+.carousel-caption {
+  top: 90px;
 }
 
 .home-carousel-item img {
@@ -59,6 +71,10 @@
   font-size: 20px;
   margin: 0 !important;
   color: var(--tp-theme-1);
+}
+
+.tp-gmaps__iframe {
+  border-radius: 10px;
 }
 
 .progress {
@@ -99,6 +115,20 @@
   object-fit: cover;
 }
 
+#carouselExampleIndicatorsII .carousel-inner .carousel-item img,
+#carouselExampleIndicatorsIII .carousel-inner .carousel-item img {
+  height: 245px;
+}
+
+#carouselExampleIndicatorsI .carousel-inner .carousel-item img {
+  height: 420px;
+}
+
+.five-carousel-item img {
+  height: auto;
+  object-fit: fill;
+}
+
 .tp-cta__area {
   max-width: 100% !important;
   top: 0;
@@ -136,10 +166,6 @@ a.tp-feature__icon:hover {
 .scroll-dots {
   bottom: 18% !important;
 }
-
-/* .tp-hero__area {
-  padding-top: 0 !important;
-} */
 
 .tp-choose__area {
   min-height: 500px;
@@ -227,6 +253,23 @@ a.tp-feature__icon:hover {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 1000px) {
+
+  .tp-app__content-box p {
+    font-size: 25px !important;
+  }
+
+  .tp-app__area {
+    height: auto !important;
+  }
+
+  .tp-app__list {
+    padding-left: 25px;
+  }
+
+  .tp-section-title {
+    font-size: 80px !important;
+  }
+
   .tpoffcanvas {
     width: 100% !important;
   }
@@ -2617,7 +2660,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 .tp-section-title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 80px;
   letter-spacing: -0.01em;
   line-height: 1.2;
 }
