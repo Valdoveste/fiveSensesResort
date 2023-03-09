@@ -1,13 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Quitox Software & IT Solutions HTML Template
-    Author: Theme Pure
-    Support: basictheme@gmail.com
-    Description: Quitox Software & IT Solutions HTML Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
 /************ TABLE OF CONTENTS ***************
 
     01. THEME DEFAULT CSS
@@ -51,6 +41,39 @@
 .modulos-info ul li:not(ul li:first-child) {
   margin-left: 16px;
   list-style: disc !important;
+}
+
+.modulos-info ul li:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tp-theme-1);
+}
+
+.obra-carousel-item,
+.obra-carousel-item img {
+  border-radius: 15px;
+}
+
+.progress-text {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 !important;
+  color: var(--tp-theme-1);
+}
+
+.progress {
+  margin: 8px 0px 16px 0px;
+  height: 55px !important;
+}
+
+.progress-bar {
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #418f92 !important;
+}
+
+.modulos-info ul li {
+  color: var(--tp-text-body);
 }
 
 .carousel-control-next-icon,
@@ -165,6 +188,14 @@ a.tp-feature__icon:hover {
   width: 100%;
 }
 
+.breadcrumb__title {
+  font-size: 50px !important;
+}
+
+.breadcrumb__area {
+  padding-bottom: 50px !important;
+}
+
 /* tp_conuter */
 
 .tp-counter__area {
@@ -187,7 +218,32 @@ a.tp-feature__icon:hover {
   letter-spacing: unset !important;
 }
 
+.tp-account__wrapper-club {
+  padding-right: 0 !important;
+}
+
+.tp-header__bars {
+  display: none;
+}
+
 @media only screen and (min-width: 350px) and (max-width: 1000px) {
+  .tpoffcanvas {
+    width: 100% !important;
+  }
+
+  .tp-header__bars {
+    display: block;
+  }
+
+  #header-sticky {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  #header-sticky .row {
+    justify-content: space-between;
+  }
+
   .tp-counter__area {
     bottom: unset !important;
     position: unset !important;
@@ -203,7 +259,7 @@ a.tp-feature__icon:hover {
   }
 
   .tp-faq__thumb {
-    width: 100%;
+    width: 100% !important;
   }
 
   .tp-counter__area .row {
@@ -217,6 +273,14 @@ a.tp-feature__icon:hover {
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+
+  .r-img {
+    height: 100vh;
+  }
+
+  .carousel-club-item {
+    padding: 0 15px
   }
 }
 
