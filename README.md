@@ -3,8 +3,7 @@
 </div>
 
 <hr> 
-
-O Primeiro Resort do Tocantins, Five Senses veio com a necessidade do lazer no cotidiano do tocantinese em aproveitar o tempo em família e no descanso. A beleza natural do lago de Palmas e os encantos naturais da região criaram esse desejo de proporcionar um novo destino de férias. 
+Five Senses Resort é uma apliação web utilizando o framework bootstrap, onde o objetivo foi montar um página que apresente as principais informações do primeiro Resort de Tocantins, o Five Senses veio com a necessidade do lazer no cotidiano do tocantinese em aproveitar o tempo em família e no descanso. A beleza natural do lago de Palmas e os encantos naturais da região criaram esse desejo de proporcionar um novo destino de férias. 
 
 Veja a aplição web aqui [Five Senses Resort](https://valdoveste.github.io/fiveSensesResort/).
 
