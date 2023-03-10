@@ -27,7 +27,7 @@
 
             http_response_code(400);
 
-            echo "Please complete the form and try again.";
+            echo "Por favor preencha o formulário novamente.";
 
             exit;
 
@@ -39,13 +39,13 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "basictheme400@gmail.com";
+        $recipient = "caio.valdoveste@outlook.com.br";
 
 
 
         // Set the email subject.
 
-        $sender = "New contact from $name";
+        $sender = "Novo contato de $name";
 
 
 
@@ -59,17 +59,17 @@
 
         $email_content = "$head\n\n\n";
 
-        $email_content .= "Name: $name\n";
+        $email_content .= "Nome: $name\n";
 
         $email_content .= "Email: $email\n\n";
 
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Mensagem:\n$message\n";
 
 
 
         // Build the email headers.
 
-        $email_headers = "From: $name <$email>";
+        $email_headers = "De: $name <$email>";
 
 
 
@@ -81,7 +81,7 @@
 
             http_response_code(200);
 
-            echo "Thank You! Your message has been sent.";
+            echo "Obrigdo! Sua mensagem foi enviada.";
 
         } else {
 
@@ -89,7 +89,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Algo deu errado não conseguimos enviar sua mensagem.";
 
         }
 
@@ -101,7 +101,7 @@
 
         http_response_code(403);
 
-        echo "There was a problem with your submission, please try again.";
+        echo "Houve um problema com o seu envio, por favor tente novamente.";
 
     }
 

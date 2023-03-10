@@ -179,22 +179,22 @@
 									if(meanShowChildren) {
 											// allow expandable sub nav(s)
 											if(meanExpandableChildren){
-												jQuery('.mean-nav ul ul').each(function() {
-														if(jQuery(this).children().length){
-																jQuery(this,'li:first').parent().append('<a class="mean-expand" href="#" style="font-size: '+ meanMenuCloseSize +'">'+ meanExpand +'</a>');
-														}
-												});
-												jQuery('.mean-expand').on("click",function(e){
-														e.preventDefault();
-															if (jQuery(this).hasClass("mean-clicked")) {
-																jQuery(this).prev('ul').slideUp(300, function(){});
-																jQuery(this).parent().removeClass('dropdown-opened');
-														} else {
-																jQuery(this).prev('ul').slideDown(300, function(){});
-																jQuery(this).parent().addClass('dropdown-opened');
-														}
-														jQuery(this).toggleClass("mean-clicked");
-												});
+												// jQuery('.mean-nav ul ul').each(function() {
+												// 		if(jQuery(this).children().length){
+												// 				jQuery(this,'li:first').parent().append('<a class="mean-expand" href="#" style="font-size: '+ meanMenuCloseSize +'">'+ meanExpand +'</a>');
+												// 		}
+												// });
+												// jQuery('.mean-expand').on("click",function(e){
+												// 		e.preventDefault();
+												// 			if (jQuery(this).hasClass("mean-clicked")) {
+												// 				jQuery(this).prev('ul').slideUp(300, function(){});
+												// 				jQuery(this).parent().removeClass('dropdown-opened');
+												// 		} else {
+												// 				jQuery(this).prev('ul').slideDown(300, function(){});
+												// 				jQuery(this).parent().addClass('dropdown-opened');
+												// 		}
+												// 		jQuery(this).toggleClass("mean-clicked");
+												// });
 											} else {
 													jQuery('.mean-nav ul ul').show();
 											}
