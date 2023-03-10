@@ -137,7 +137,6 @@
 
 [class*="title"] {
   color: var(--tp-theme-1) !important;
-  font-family: var(--tp-ff-heading) !important;
 }
 
 
@@ -152,6 +151,10 @@ a.tp-feature__icon:hover {
 
 .tp-header__menu-space {
   padding-top: unset !important;
+}
+
+#mobile-menu ul{
+  margin: 0 !important;
 }
 
 .tp-btn:hover {
