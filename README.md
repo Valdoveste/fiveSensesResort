@@ -32,7 +32,7 @@ Check here to view the web app [Nebulum](https://valdoveste.github.io/nebulum/).
 <hr>
 <br>
 
-## Home
+## Index
 ![image](https://user-images.githubusercontent.com/62577482/224366779-760839c3-bddf-4f6f-9cd3-f965b773d2c3.png)
 
 
@@ -62,7 +62,7 @@ Check here to view the web app [Nebulum](https://valdoveste.github.io/nebulum/).
 
 <br>
 
-## SmartPhone Device Screen
+## SmartPhone
 <div>
   <img src="https://user-images.githubusercontent.com/62577482/224371048-ca24055f-82ad-47f4-97ee-4c2cbd18360b.png" width="414px">
   <img src="https://user-images.githubusercontent.com/62577482/224371136-b430b70c-4d2e-4e64-9998-6a277ad26109.png" width="414px">
@@ -71,7 +71,7 @@ Check here to view the web app [Nebulum](https://valdoveste.github.io/nebulum/).
 <br>
 </div>
 
-## Tablet Device Screen
+## Tablet 
 <div>
   <img src="https://user-images.githubusercontent.com/62577482/224371680-8b9fc6e9-f1a1-464b-9f8f-b4048f26687c.png" width="832px">
   <img src="https://user-images.githubusercontent.com/62577482/224371845-b5e64c28-4a3f-45f9-b947-013df278bbcb.png" width="832px">
