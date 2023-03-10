@@ -4,9 +4,7 @@
 
 <hr> 
 
-An online album with the objective to be simple, clean, and straight to the point. Consuming the Pexels API to load a massive amount of different photos. 
-One of the main objectives of this application was to learn more about clean & simple design also have extra care for the mobile users, applying concepts as 
-infinityScroll and FAB(Floating Action Button) and modal that works for portrait and landscape screen orientations. 
+Um álbum de fotos online, onde uma dos principais objetivos durante seu desenvolvimento praticar minhas habilidades com clean design, javascript e com o consumo de API's. Um dos grande desafios durante o desenvolvimento foi tratar a imagens e dar uma preocupação extra para usuário mobile.Durante o tratamento das imagens foi utilizado loading lazy, placeholder baseado em sua cor média, e uma das funcionalidades para mobile é sua paginação que funciona com infinityScroll.
 
 Veja a aplição web aqui [Five Senses Resort](https://valdoveste.github.io/fiveSensesResort/).
 
