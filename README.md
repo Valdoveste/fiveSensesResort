@@ -75,6 +75,5 @@ Veja a aplição web aqui [Five Senses Resort](https://valdoveste.github.io/five
   <img src="https://user-images.githubusercontent.com/62577482/224371680-8b9fc6e9-f1a1-464b-9f8f-b4048f26687c.png" width="832px">
   <img src="https://user-images.githubusercontent.com/62577482/224371845-b5e64c28-4a3f-45f9-b947-013df278bbcb.png" width="832px">
   <img src="https://user-images.githubusercontent.com/62577482/224373726-2a5b3c1f-3a70-4f88-92dc-124a137eb898.png" width="832px">
-  <img src="https://user-images.githubusercontent.com/62577482/224373726-2a5b3c1f-3a70-4f88-92dc-124a137eb898.png" width="832px">
 </div>
 
